@@ -184,7 +184,7 @@ def test_get_deworming_event_description(pet, vaccination, owner):
         expected_description = {
             "summary": "Jose - Deworming appointment for Sora",
             "location": "Whatever works for you",
-            "description": "Jose Morales\n1234567890\n\nPlease validate deworming appointment for pet Sora since the last deworming was: 2025-05-26\n\nThank you for trusting Vetlog!\nhttps://vetlog.org/",
+            "description": "Jose Morales\n1234567890\n\nDeworming appointment for Sora since the last deworming was: 2025-05-26\n\nThank you for trusting Vetlog!\nhttps://vetlog.org/",
             "start": {
                 "dateTime": "2026-05-21T12:00:00-06:00",
                 "timeZone": "UTC",
@@ -194,6 +194,7 @@ def test_get_deworming_event_description(pet, vaccination, owner):
                 "timeZone": "UTC",
             },
             "attendees": [
+                {"email": "contact@josdem.io"},
                 {"email": "email1@example.com"},
                 {"email": "email2@example.com"},
                 {"email": "email3@example.com"},
@@ -242,7 +243,7 @@ def test_get_deworming_event_includes_note_for_vetlog_email(pet, vaccination):
         expected_description = {
             "summary": "Jose - Deworming appointment for Sora",
             "location": "Whatever works for you",
-            "description": "Jose Morales\n1234567890\n\nPlease validate deworming appointment for pet Sora since the last deworming was: 2025-05-26\n\nNote: Please follow up by phone.\n\nThank you for trusting Vetlog!\nhttps://vetlog.org/",
+            "description": "Jose Morales\n1234567890\n\nDeworming appointment for Sora since the last deworming was: 2025-05-26\n\nNote: Please follow up by phone.\n\nThank you for trusting Vetlog!\nhttps://vetlog.org/",
             "start": {
                 "dateTime": "2026-05-21T12:00:00-06:00",
                 "timeZone": "UTC",
@@ -251,7 +252,9 @@ def test_get_deworming_event_includes_note_for_vetlog_email(pet, vaccination):
                 "dateTime": "2026-05-21T12:15:00-06:00",
                 "timeZone": "UTC",
             },
-            "attendees": [],
+            "attendees": [
+                {"email": "support@vetlog.org"},
+            ],
         }
         assert helper.get_deworming_event() == expected_description
 

@@ -129,7 +129,7 @@ def test_return_spanish_deworming_description(mock_env_vars):
     description = locale.get_deworming_description(pet="Sora", date="2024-01-01")
     assert (
         description
-        == "Favor de validar cita de desparasitación para Sora desde que la reciente fue: 2024-01-01\n"
+        == "Cita de desparasitación para Sora desde que la más reciente fue: 2024-01-01\n"
     )
 
 
@@ -139,7 +139,7 @@ def test_return_english_deworming_description(mock_env_vars):
     description = locale.get_deworming_description(pet="Sora", date="2024-01-01")
     assert (
         description
-        == "Please validate deworming appointment for pet Sora since the last deworming was: 2024-01-01\n"
+        == "Deworming appointment for Sora since the last deworming was: 2024-01-01\n"
     )
 
 
