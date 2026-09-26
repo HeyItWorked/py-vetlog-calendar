@@ -237,7 +237,6 @@ def list_surgeries_without_logs(
 
         helper = Helper(pet=None, vaccination=None, owner=None, language=language)
         event = helper.get_missing_pet_logs_event(surgeries)
-        event_sent = False
         for surgery in surgeries:
             try:
                 description = surgery.get("description", "")
@@ -260,9 +259,7 @@ def list_surgeries_without_logs(
 
             if not logs:
                 logger.info("Found %s surgeries without medical logs", len(surgeries))
-                if not event_sent:
-                    calendar.create_event(event)
-                    event_sent = True
+                calendar.create_event(event)
 
 
 def surgeries_cli():
