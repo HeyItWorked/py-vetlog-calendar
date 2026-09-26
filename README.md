@@ -117,6 +117,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/abhi-0203"><img src="https://avatars.githubusercontent.com/u/75994674?v=4?s=100" width="100px;" alt="Taraka Abhiram"/><br /><sub><b>Taraka Abhiram</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/commits?author=abhi-0203" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/iamdhrv"><img src="https://avatars.githubusercontent.com/u/31080769?v=4?s=100" width="100px;" alt="Dhruv"/><br /><sub><b>Dhruv</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/commits?author=iamdhrv" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/HeyItWorked"><img src="https://avatars.githubusercontent.com/u/39018902?v=4?s=100" width="100px;" alt="Liam"/><br /><sub><b>Liam</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/issues?q=author%3AHeyItWorked" title="Bug reports">🐛</a></td>
+    </tr>
   </tbody>
 </table>
 
