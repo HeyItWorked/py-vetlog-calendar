@@ -118,7 +118,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/iamdhrv"><img src="https://avatars.githubusercontent.com/u/31080769?v=4?s=100" width="100px;" alt="Dhruv"/><br /><sub><b>Dhruv</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/commits?author=iamdhrv" title="Code">💻</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/HeyItWorked"><img src="https://avatars.githubusercontent.com/u/39018902?v=4?s=100" width="100px;" alt="Liam"/><br /><sub><b>Liam</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/issues?q=author%3AHeyItWorked" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/HeyItWorked"><img src="https://avatars.githubusercontent.com/u/39018902?v=4?s=100" width="100px;" alt="Liam"/><br /><sub><b>Liam</b></sub></a><br /><a href="https://github.com/josdem/py-vetlog-calendar/issues?q=author%3AHeyItWorked" title="Bug reports">🐛</a> <a href="https://github.com/josdem/py-vetlog-calendar/commits?author=HeyItWorked" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
